@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require almond
 //= require_tree .
+
+require(['application/boot']);
